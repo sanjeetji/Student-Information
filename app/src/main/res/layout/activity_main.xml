@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Any String"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        android:paddingStart="30sp"
+        android:id="@+id/stringEdit"
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_marginTop="40sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:layout_marginStart="50sp"
+        android:layout_marginEnd="50sp"
+        android:layout_marginTop="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/stringEdit"
+        android:text="Submit"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/goBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/submit"
+        android:text="Students Details"
+        android:layout_marginTop="40sp"
+        android:layout_marginStart="40sp"
+        android:layout_marginEnd="40sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

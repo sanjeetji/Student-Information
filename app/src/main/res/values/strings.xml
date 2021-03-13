@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Student Information</string>
+    <string name="name1">Name</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_your_roll_no">Enter Your Roll NO</string>
+    <string name="roll_no">Roll No</string>
+    <string name="enter_your_address">Enter Your Address</string>
+    <string name="address">Address</string>
+    <string name="submit">Add Student</string>
+    <string name="name">Name</string>
+</resources>
